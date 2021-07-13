@@ -1,0 +1,12 @@
+{
+  "name": "Hide Numbers",
+  "description": "隱藏 like 數，單純閱讀",
+  "version": "1.0",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://matters.news/*"],
+      "css": ["hide.css"]
+    }
+  ]
+}

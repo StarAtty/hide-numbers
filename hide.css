@@ -1,0 +1,7 @@
+.clap + span, .jsx-3185081958.left > span:first-child {
+    display: none !important;
+}
+
+.jsx-3185081958.left > span:nth-child(2) {
+    padding-left: 0 !important;
+}
